@@ -1,0 +1,86 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: #ecf0f1;
+}
+
+p {
+    line-height: 1.8;
+    color: #bdc3c7;
+}
+
+section {
+    margin: 30px;
+}
+
+h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.dlss-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dls {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: 2px solid #2c3e50;
+    padding: 20px;
+    margin: 15px 0;
+    width: calc(33.33% - 30px);
+    transition: transform 0.3s ease-in-out;
+}
+
+    .dls:hover {
+        transform: scale(1.05);
+    }
+
+    .dls img {
+        max-width: 100%;
+        height: auto;
+        border-bottom: 2px solid #2c3e50;
+        width: 100%;
+        height: 150px;
+    }
+
+    .dls h3 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .dls p {
+        margin-bottom: 0;
+    }
+
+.dls-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+    .dls-link:hover {
+        color: #2980b9;
+    }

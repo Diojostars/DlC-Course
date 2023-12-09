@@ -1,0 +1,6 @@
+{
+  "domain": "dev-fppnnu4ucsp5ca88.us.auth0.com",
+  "clientId": "TSqpINtDn2ysgFvUYj0ong27icLB5wGq",
+  "redirectUri": "http://localhost:3000",
+  "audience": "https://dev-fppnnu4ucsp5ca88.eu.auth0.com/api/v2/"
+}
